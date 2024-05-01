@@ -31,7 +31,7 @@ void PineBorscht::Action(){
 					continue;
 				}
 				else{
-					// Getting too close to PineBorscht kills the organism
+					// Getting too close to Pine Borscht kills the organism
 					if (GetWorld()->worldMap[GetPosY() + y][GetPosX() + x] != nullptr) {
 						tmp += GetWorld()->worldMap[GetPosY() + y][GetPosX() + x]->GetSign();
 						tmp += " got too close to ";

@@ -23,6 +23,7 @@ WolfBerries::WolfBerries(World* world, int y, int x, int strength, int age) {
 	world->AddOrganism(this);
 }
 void WolfBerries::Collision(Organism* other, int j, int i){
+	// Eating Wolf Berries is kills the organism
 	string tmp = "";
 	tmp += other->GetSign();
 	tmp += " ate ";

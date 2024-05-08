@@ -225,4 +225,9 @@ void World::Load() {
 		anything = _getch();
 	}
 }
+void World::ClearList() {
+	for (auto& tmpOrganism : organismList) {
+		delete tmpOrganism;
+	}
+}
 World::~World(){}

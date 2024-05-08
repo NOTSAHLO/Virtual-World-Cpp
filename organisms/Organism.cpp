@@ -139,5 +139,4 @@ void Organism::RandomDirection(Direction& direction) {
 		direction = (Direction)(rand() % 4);
 	}
 }
-Organism::~Organism() {
-}
+Organism::~Organism() {}

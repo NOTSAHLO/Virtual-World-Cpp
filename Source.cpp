@@ -9,7 +9,6 @@ int main() {
 	while (Earth->GetPlayer()->GetAlive()) {
 		Earth->MakeTurn(Earth->GetList());
 	}
-	Earth->ClearList();
 	delete Earth;
 	cout << "Game Over!" << endl;
 }

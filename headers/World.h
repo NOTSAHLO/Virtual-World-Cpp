@@ -30,6 +30,5 @@ public:
 	void SetLoadFromFile(bool set);
 	void Save();
 	void Load();
-	void ClearList();
 	~World();
 };

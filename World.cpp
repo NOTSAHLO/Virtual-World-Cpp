@@ -225,9 +225,9 @@ void World::Load() {
 		anything = _getch();
 	}
 }
-void World::ClearList() {
+World::~World(){
+	cout << "Deleting organisms" << endl;
 	for (auto& tmpOrganism : organismList) {
 		delete tmpOrganism;
 	}
 }
-World::~World(){}
